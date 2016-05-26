@@ -11,7 +11,7 @@
   color: inherit;
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Old Standard TT', serif;
   font-size: 20px;
   line-height: 30px;
   color:#444;
@@ -26,6 +26,7 @@ h1 {
 img {
   border-radius: 10%;
   padding-top: 10px;
+
 }
 .hero {
   outline:1px solid red;
@@ -33,4 +34,23 @@ img {
   display:flex;
   flex-direction: column;
   justify-content:flex-start;
+  border:0;
+  padding:0;
+
+}
+
+section {
+  border-top:2px dashed #eee;
+  padding:50px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+}
+ul {
+  padding:10px;
+}
+li {
+  display:inline;
+  padding:0px 10px 0px 10px;
 }
