@@ -10,3 +10,19 @@
   line-height: inherit;
   color: inherit;
 }
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color:#444;
+  text-align: center;
+  text-shadow: 1px 1px 0 #fff;
+}
+h1 {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: bold;
+}
+img {
+  border-radius: 10%;
+}
